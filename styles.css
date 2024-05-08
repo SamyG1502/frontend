@@ -1,0 +1,207 @@
+*{
+    margin: 5px;
+    padding: 0;
+}
+
+.head1 {
+    display: flex;
+    justify-content: center;
+}
+
+.head-container {
+    display: flex;
+    align-items: center;
+    background: blanchedalmond;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+.left ul {
+    display: flex;
+    list-style: none;
+}
+.left  a {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+.right ul {
+    display: flex;
+   padding-left: 420px;
+   list-style: none;
+}
+.right a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+/*image*/
+.image {
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+}
+ .container-p {
+    height: 300px;
+    //background: navy
+    
+ }
+ .p {
+   padding-left: 26%;
+   padding-top: 5%;
+ }
+ p {
+    font-size: medium;
+    font-weight: 600;
+ }
+ .p a {
+    text-decoration: none;
+ }
+
+
+ .p1 p {
+    font-size: smaller;
+    font-weight: 100;
+    padding-left: 26%;
+    
+ }
+
+ /*Middle*/
+
+ .Middle {
+    display: flex;
+    justify-content: end;
+ }
+
+ .M {
+    width: 700px;
+    height: 700px;
+    background-color: blanchedalmond;
+   
+ }
+
+.image-left img{
+    position: absolute;
+    right: 43%;
+    padding-top: 7%;
+
+}
+
+ .M img {
+    padding-left: 25%;
+    padding-top: 20%;
+ }
+
+ /*Text*/
+
+ .container-text{
+    height: 300px;
+    //background-color: yellowgreen;
+    
+ }
+.text {
+    padding-left: 26%;
+    padding-top: 3%;
+}
+#text1 {
+    padding-left: 26%;
+    padding-top: 5px;
+    
+}
+#text1 p{
+    font-size: small;
+    font-weight: 100;
+    font-style: initial;
+}
+/*video*/
+
+.video {
+    display: block;
+   padding-left: 26%;
+    
+}
+
+.text2 {
+    padding-left: 26%;
+    padding-top: 3%;
+    width: 700px;
+}
+
+.para {
+    font-weight: 100;
+    font-size: 14px;
+}
+.image2 {
+    background-color: palegreen;
+    width: 700px;
+    height: 800px;
+    margin-top: 100px;
+   
+}
+.image2 img {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.img-right {
+    position: absolute;
+    left: 43%;
+    padding-top: 5%;
+}
+.Ableton {
+    padding: auto;
+    padding-top: 70px;
+    p {
+        font-size: 40px;
+    }
+}
+
+/*Footer*/
+
+footer {
+    display: flex;
+    gap: 90px;
+    font-size: larger;
+    height: 300px;
+    li{
+        list-style: none;
+    }
+}
+.foot {
+    width: 500px;
+    p {
+        font-weight: 200;
+        font-size: large;
+    }
+    .input-container {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .input-container input {
+        padding-right: 30px; 
+        height: 35px;
+        border-radius: 10px;
+        width: 50vmin;
+      }
+      
+      
+      .input-container button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 80%;
+        border-radius: 5px;
+        width: 15vmin;
+        background: blue;
+        color: aliceblue;
+        font-weight: 700;
+      }
+      
+}
+
+
+.button :hover {
+    background: green;
+  }
